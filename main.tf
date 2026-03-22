@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "webhook_test_bucket" {
-  bucket        = "webhook-test-bucket"
+  bucket        = "webhook-test-bucket-3109"
   force_destroy = true
 
   tags = {
